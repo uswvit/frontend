@@ -1,0 +1,54 @@
+body {
+    width: 1510px;
+}
+p, li, .logo, .content, .form, .button, .started {
+    font-family: 'Open Sans Regular', sans-serif;
+}
+.logo {
+    background-color: #000;
+    color:#ffffff;
+}
+.top-menu li {
+    display: inline-block;
+    padding: 0 40px;
+}
+.bg {
+    background-image:url(./../images/bg.png);
+    width: 1510px;
+    height: 1026px;
+}
+.content {
+    padding: 208px 85px;
+    color: #fff;
+}
+.form {
+    background-color: #fff;
+    width: 470px;
+    height:540px;
+    border-radius: 10px;
+    color: #000;
+}
+ul.social li {
+    display: inline-block;
+    padding: 0 25px;
+}
+.form {
+    float: right;
+    background-color: #fff;
+}
+.started {
+    background: #EC7979;
+    text-align: center;
+    height: 60px;
+    border-radius: 0px 0px 10px 10px;
+    color: #fff;
+}
+.line {
+    width:170px;
+    border-top:1px solid #000;
+}
+.footer {
+    height: 140px;
+    background-color: #F8EFEF;
+
+}
