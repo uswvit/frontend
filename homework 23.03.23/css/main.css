@@ -1,0 +1,68 @@
+.block {
+    width:100%;
+    height:100%;
+}
+p, .button {
+    font-family: 'Hind Siliguri';
+}
+.content {
+    padding:50px 0 20px 230px; 
+}
+.image {
+    background-image: url(./../images/device.png);
+    background-repeat: no-repeat;
+    width: 643px;
+    height: 611px;
+    float: right;
+    padding: 144px 144px 0 0;
+}
+p.line1 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #C72535;
+}
+span.blue {
+    background-color: rgba(36,124,192,0.1);
+}
+p span.blue {
+    color:#247CC0;
+}
+p.line2 {
+    font-size: 61px;
+    color: #030D15;
+    line-height: 73.2px;
+    margin:1px 0;
+}
+p.line3 {
+    font-size: 20px;
+    color:#030D15;
+    line-height: 27px;
+}
+.button {
+    height:58px;
+    width:151px;
+    text-align: center;
+    color: #fff;
+    background-color: #247CC0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+.row {
+    padding-top: 10px;
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+.price1 {
+    font-size: 30px;
+}
+.price2 {
+    font-size: 16px;
+    text-decoration: line-through;
+}
