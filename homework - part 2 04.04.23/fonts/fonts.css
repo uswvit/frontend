@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: local('Hind Siliguri Regular'), local('Hind-Siliguri-Regular'),
+        url('./../fonts/HindSiliguri-Regular.woff2') format('woff2'),
+        url('./../fonts/HindSiliguri-Regular.woff') format('woff'),
+        url('./../fonts/HindSiliguri-Regular.eot') format('eot'),
+        url('./../fonts/HindSiliguri-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

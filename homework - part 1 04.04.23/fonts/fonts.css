@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('./../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('./../fonts/Montserrat-Regular.woff') format('woff'),
+        url('./../fonts/Montserrat-Regular.eot') format('eot'),
+        url('./../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SpectralSC';
+    src: local('SpectralSC Regular'), local('SpectralSC-Regular'),
+        url('./../fonts/SpectralSC-Regular.woff2') format('woff2'),
+        url('./../fonts/SpectralSC-Regular.woff') format('woff'),
+        url('./../fonts/SpectralSC-Regular.eot') format('eot'),
+        url('./../fonts/SpectralSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

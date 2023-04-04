@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <title>Lesson 8 :: Homework 1 :: 04/03/2023</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="empty"></div>
+        <div class="form-container">
+            <div class="close"><a href="#"><img src="./images/close-icon.png" width="26px" height="26px" alt="Close"></a></div>
+            <div class="enter-text">Войти в личный кабинет</div>
+            <form action="welcome.html" class="form">
+                <input type="tel" name="phone-number" id="phone-number" tabindex="1" autofocus="true" placeholder="Номер телефона" class="tel" required>
+                <input type="password" name="password" tabindex="2" maxlength="10" placeholder="Пароль" class="passwd" required>
+                <div class="remember-me">
+                    <input type="checkbox" name="remember-me" tabindex="3" class="checkbox">
+                    <label for="remember-me">Запомнить меня</label>
+                </div>
+                <div class="enter-forgot">
+                    <input type="submit" class="button-enter" value="Войти" tabindex="4">
+                    <div class="forgot-password"><a href="#">Забыли пароль?</a></div>
+                </div>
+            </form>
+            <div class="line"></div>
+            <div class="not-registered">Вы еще не зарегистрированы?</div>
+            <div class="register"><a href="#">регистрация</a></div>
+        </div>
+    </div>
+</body>
+</html>
